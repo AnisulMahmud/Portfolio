@@ -1,0 +1,131 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    letter-spacing: 1px;
+}
+
+body{
+    background: #252b3e;
+    color: #fff8f8;
+}
+
+.header-container{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+
+}
+
+.logo{
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    /* text-transform: uppercase; */
+    letter-spacing: 2px;
+}
+
+.nav-container a{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+   
+
+
+}
+
+.nav-container :hover,
+.nav-container a.nav-home{
+    color: #95c5f9;
+    transition: 2s;
+}
+
+.home{
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    height: 100vh;
+}
+
+.home-container{
+    
+    max-width: 600px;
+}
+
+.home-container h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    
+}
+
+.home-container h3{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #4e66a9;
+}
+.home-container p{
+    font-size: 15px;
+    margin-top: 20px;
+    margin-right: 0;
+
+
+}
+
+.home-container .button-action {
+    margin-top: 40px;
+    width: 400px;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-action a{
+    
+    width: 150px;
+    height: 100%;
+    background: #95c5f9;
+    border: 1px solid #95c5f9;
+    border-radius: 15px;
+    display: inline-flex;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: #282727;
+    letter-spacing: 1px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.button-action .btn1{
+    background: transparent;
+    color: #95c5f9;
+}
+
+.button-action a:hover{
+    background: #fff;
+    color: #282727;
+    transition: 0.5s;
+}
