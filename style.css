@@ -129,3 +129,92 @@ body{
     color: #282727;
     transition: 0.5s;
 }
+
+/* Media Queries for Responsive Design */
+
+/* Phones */
+@media only screen and (max-width: 600px) {
+    .nav-container a {
+        margin-left: 10px;
+        font-size: 14px;
+    }
+
+    .home-container {
+        max-width: 100%;
+        padding: 0 5%;
+    }
+
+    .home-container h1 {
+        font-size: 30px;
+    }
+
+    .home-container h3 {
+        font-size: 18px;
+    }
+
+    .home-container p {
+        font-size: 12px;
+    }
+
+    .button-action {
+        width: 100%;
+    }
+}
+
+/* Medium Screen */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .nav-container a {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+
+    .home-container {
+        max-width: 80%;
+        padding: 0 10%;
+    }
+
+    .home-container h1 {
+        font-size: 40px;
+    }
+
+    .home-container h3 {
+        font-size: 24px;
+    }
+
+    .home-container p {
+        font-size: 14px;
+    }
+
+    .button-action {
+        width: 80%;
+    }
+}
+
+/* Laptop */
+@media only screen and (min-width: 1025px) {
+    .nav-container a {
+        margin-left: 40px;
+        font-size: 20px;
+    }
+
+    .home-container {
+        max-width: 60%;
+        padding: 0 20%;
+    }
+
+    .home-container h1 {
+        font-size: 50px;
+    }
+
+    .home-container h3 {
+        font-size: 30px;
+    }
+
+    .home-container p {
+        font-size: 15px;
+    }
+
+    .button-action {
+        width: 60%;
+    }
+}
