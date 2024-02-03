@@ -23,7 +23,7 @@ body{
 }
 
 header{
-    position: fixed;
+    /* position: fixed; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -32,7 +32,8 @@ header{
     width: 100%;
     z-index: 1000;
     padding: 30px 20%;
-    background: transparent;
+    /* background: transparent; */
+    background-color: transparent;
     transition: .5s;
 }
 
@@ -60,6 +61,8 @@ header{
 
 .navBar a:hover{
     color: #ff8f8f;
+    font-weight: 800;
+    
 }
 
 section{
@@ -90,15 +93,15 @@ section{
 }
 
 .home-container h1{
-    font-size: 40px;
+    font-size: 45px;
     font-weight: 700;
     margin: 23px 0;
 
 }
 
 .home-container p{
-    font-size: 15px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 600;
     color: #f7f0f0;
     margin-bottom: 40px;
     margin-right: 15px;
@@ -109,8 +112,8 @@ section{
 
 
 .home-img{
-    width: 900px;
-    height: 730px;
+    width: 500px;
+    height: auto;
 }
 
 .home-img img{
@@ -123,9 +126,10 @@ section{
     display: inline-block;
     border: 2px solid #bed2e8;
     background-color: #9aaed4;
+    color: #5e2f44;
     padding: 15px 35px;
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     border-radius: 15px;
     margin-right: 10px;
 }
@@ -179,5 +183,71 @@ section{
     transform: translateY(-5px) scale(1.1);
     transition: all .5s ease-in-out;
 }
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    
+}
+
+.about img{
+    height: auto;
+    width: 450px;
+    margin-left: 50px;
+}
+
+.about-description{
+    width: 550px;
+    margin-right: 50px;
+}
+.about-container{
+    margin: 0 auto;
+    width: 1140px;
+    max-width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.about-description h2{
+    margin-bottom: 22px;
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+
+    
+}
+
+.about-description h5{
+    margin-bottom: 22px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 700;
+    
+
+    
+}
+
+.about-description h5 span{
+    color: #bc4578;
+    margin-bottom: 22px;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 800;
+}
+
+.about-description p{
+    font-size: 20px;
+    font-weight: 600;
+    color: #646d9b;
+    margin-bottom: 40px;
+    margin-right: 15px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    align-items: right;
+    
+}
+
 
 
