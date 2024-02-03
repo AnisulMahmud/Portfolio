@@ -53,8 +53,8 @@ header{
 .navBar a{
     color: #fff;
     font-size: 18px;
-    font-weight: 500;
-    margin: 0 18px;
+    font-weight: 600;
+    margin: 0 10px;
     transition: .5s;
 }
 
