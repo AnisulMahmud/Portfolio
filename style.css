@@ -38,7 +38,7 @@ header{
 
 .logo{
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
     letter-spacing: 1px;
 }
@@ -53,7 +53,7 @@ header{
     color: #fff;
     font-size: 18px;
     font-weight: 500;
-    margin: 0 20px;
+    margin: 0 18px;
     transition: .5s;
 }
 
@@ -89,7 +89,7 @@ section{
 }
 
 .home-container h1{
-    font-size: 50px;
+    font-size: 40px;
     font-weight: 700;
     margin: 23px 0;
 
